@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zziUkJKNIYxTE/Kv+D2oUrjngfRIKBVezWYpzEx64ce/nLgZ3T4oD4G7ikV2K+068Uj0do0lL92XkBf+GBn0zg==",
+  "dgSpecHash": "pdGQGr9CkYetWIyBcfDnDZBewFPBVEDrW3h7SBwamlQtcsp+0dZy9Y1YXQnzqEcpu2hKv91qWrWYf0ML3dMZ7A==",
   "success": true,
-  "projectFilePath": "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather.Android\\AppWeather.Android.csproj",
+  "projectFilePath": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather.Android\\AppWeather.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\sieut\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\sieut\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\sieut\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

@@ -1139,24 +1139,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\sieut\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather.iOS\\AppWeather.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather.iOS\\AppWeather.iOS.csproj",
       "projectName": "AppWeather.iOS",
-      "projectPath": "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather.iOS\\AppWeather.iOS.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather.iOS\\obj\\",
+      "projectPath": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather.iOS\\AppWeather.iOS.csproj",
+      "packagesPath": "C:\\Users\\sieut\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sieut\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1170,8 +1170,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather\\AppWeather.csproj": {
-              "projectPath": "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather\\AppWeather.csproj"
+            "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather\\AppWeather.csproj": {
+              "projectPath": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather\\AppWeather.csproj"
             }
           }
         }

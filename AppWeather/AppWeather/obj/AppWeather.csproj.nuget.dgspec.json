@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather\\AppWeather.csproj": {}
+    "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather\\AppWeather.csproj": {}
   },
   "projects": {
-    "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather\\AppWeather.csproj": {
+    "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather\\AppWeather.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather\\AppWeather.csproj",
+        "projectUniqueName": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather\\AppWeather.csproj",
         "projectName": "AppWeather",
-        "projectPath": "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather\\AppWeather.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Tailieunam4_1\\Ungdungdanentang\\project\\AppWeather\\AppWeather\\AppWeather\\obj\\",
+        "projectPath": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather\\AppWeather.csproj",
+        "packagesPath": "C:\\Users\\sieut\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sieut\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
