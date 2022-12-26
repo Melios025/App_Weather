@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "/nubhA33RNRZw+csPqwctmCSO6GVz7rWt0HYDEJieBQFyL0WmM6BTbKi+O00geWq7AOriHw4ql/Auo7ilqtijA==",
+  "dgSpecHash": "jRIjMBFQJ75C/gjxlzvneMfX6izoyYVeq60oozF0+s3VdDBa93U/D5gpTVk0Vg0rKH7Dn/fqCzMw3oqawt6yhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather.iOS\\AppWeather.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sieut\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\sieut\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\sieut\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\sieut\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.5\\xamarin.communitytoolkit.2.0.5.nupkg.sha512",
+    "C:\\Users\\sieut\\.nuget\\packages\\xamarin.communitytoolkit.markup\\2.0.5\\xamarin.communitytoolkit.markup.2.0.5.nupkg.sha512",
+    "C:\\Users\\sieut\\.nuget\\packages\\xamarin.essentials\\1.7.4\\xamarin.essentials.1.7.4.nupkg.sha512",
+    "C:\\Users\\sieut\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512"
   ],
   "logs": []
 }
