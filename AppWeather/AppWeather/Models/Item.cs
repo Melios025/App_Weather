@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AppWeather.Models
+﻿namespace AppWeather.Models
 {
     public class Item
     {

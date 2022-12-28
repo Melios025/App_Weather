@@ -1,7 +1,5 @@
-﻿using AppWeather.ViewModels;
-using AppWeather.Views;
+﻿using AppWeather.Views;
 using System;
-using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace AppWeather
@@ -13,6 +11,7 @@ namespace AppWeather
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(SavedLocationPage), typeof(SavedLocationPage));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

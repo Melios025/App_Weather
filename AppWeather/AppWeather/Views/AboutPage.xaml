@@ -15,18 +15,18 @@
                 <StackLayout>
                     <Label
                             Grid.Row="0"
-                            Text="Bình Dương"
+                            Text="{Binding Title}" 
                             FontSize="Title"
                             FontAttributes="Bold"
                             Margin="16, 0, 0, 0"></Label>
                     <Label
                             Grid.Row="1"
-                            Text="Việt Nam"
+                            Text="{Binding Sys.Country}"
                             FontSize="Body"
                             Margin="16, -8, 0, 0"></Label>
                     <Label
                             Grid.Row="2"
-                            Text="T2, 26 Tháng 12 2022, 15:00"
+                            Text="{Binding Dt}"
                             FontSize="Body"
                             Margin="16, 2, 0, 0"></Label>
                     <Grid Grid.Row="3"
@@ -35,7 +35,7 @@
                         Margin="0, 16, 24, 16">
                         <Image 
                                 Grid.Column="0"
-                                Source="icon_02d.png"
+                               
                                 WidthRequest="120"
                                 HeightRequest="120"></Image>
                         <StackLayout Grid.Column="1"
@@ -47,7 +47,7 @@
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span
-                                                Text="23C"
+                                                Text="{Binding Main.Temperature}"
                                                 FontSize="60"
                                                 FontAttributes="Bold"
                                                 CharacterSpacing="1"></Span>
@@ -62,14 +62,14 @@
                                         <Span
                                                 Text="Feels like "></Span>
                                         <Span
-                                                Text="270C"
+                                                Text="{Binding Main.Feels}"
                                                 FontAttributes="Bold"
                                                 ></Span>
                                     </FormattedString>
                                 </Label.FormattedText>
                             </Label>
                             <Label
-                                    Text="Fews Cloud"
+                                    Text="{Binding Weather[0].Description}"
                                     FontAttributes="Bold"
                                     HorizontalOptions="EndAndExpand"></Label>
                         </StackLayout>
@@ -94,11 +94,11 @@
                                             HorizontalOptions="FillAndExpand">
                                 <Label
                                                    
-                                                    Text="Rain"
+                                                    Text="Wind"
                                                     HorizontalOptions="StartAndExpand">
                                 </Label>
                                 <Label
-                                                    Text="0,21mm/h"
+                                                    Text="{Binding Wind.Speed}"
                                                     FontAttributes="Bold"
                                                     HorizontalOptions="EndAndExpand"></Label>
                             </StackLayout>

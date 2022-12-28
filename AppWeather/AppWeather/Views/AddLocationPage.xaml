@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppWeather.Views.AddLocationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Tên vị trí:" Grid.Row="0" Grid.Column="0"
+                       FontSize="20" VerticalOptions="Center"></Label>
+                <Entry Keyboard="Text" x:Name="EntLocationName"
+                       VerticalOptions="Center" Grid.Row="0" Grid.Column="1"></Entry>
+
+               <Button Text="LƯU" x:Name="BtnAddNewLocatoin" Clicked="BtnAddNewLocatoin_Clicked"
+                        Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                        VerticalOptions="Center" HorizontalOptions="Center"
+                        FontSize="20" FontAttributes="Bold"></Button>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

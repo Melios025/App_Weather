@@ -61,3 +61,5 @@ C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWe
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\ref\AppWeather.dll
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.pdb
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.csproj.AssemblyReference.cache
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\SavedLocationPage.xaml.g.cs
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\AddLocationPage.xaml.g.cs

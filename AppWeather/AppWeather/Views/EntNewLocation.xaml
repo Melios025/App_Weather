@@ -67,10 +67,11 @@
                     Grid.Column="2"
                     Text="Get Weather" 
                     BorderWidth="1"
+                    x:Name="OnGetWeatherButton"
                     BorderColor="White"
                     BackgroundColor="DarkGray"
                     TextColor="White"
-                    Clicked="OnGetWeatherButtonClicked" />
+                    Clicked="OnGetWeatherButton_Clicked" />
             </Grid>
 
             <ScrollView>
