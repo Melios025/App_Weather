@@ -8,7 +8,20 @@
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0">
-            <Image Source="welcome.png"></Image>
+            <Button
+                ImageSource="logout_icon.png"
+                Margin="170,0"
+                HeightRequest="50"
+                CornerRadius="30"
+                TranslationX="165"
+                TranslationY="10"
+                BackgroundColor="#fff"
+                Clicked="btnLoginUserPageclicked">
+            </Button>
+            <Image 
+                Source="welcome.png"
+                Margin="0,-10,0,0" 
+                WidthRequest="350"></Image>
             <Label 
                 Text="CHÀO MỪNG BẠN ĐẾN VỚI APP THỜI TIẾT" 
                 FontSize="28" 
@@ -16,20 +29,39 @@
                 FontAttributes="Bold"></Label>
             <Button 
                 Text="Sử dụng vị trí hiện tại"
+                x:Name="CurrentLocation"
+                Clicked="CurrentLocation_Clicked"
                 TextColor="#063267"
                 FontSize="18"
+                CornerRadius="30"
                 Margin="0,20,0,0" 
                 FontAttributes="Bold"
-                BackgroundColor="#ffbb00"
-                Command="{Binding LoginCommand}"/>
+                BackgroundColor="#ffbb00" >
+
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1.1,0">
+                        <GradientStop Color="#ffbb00" Offset="0.1" />
+                        <GradientStop Color="Green" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
             <Button
-                Text="Nhập tên vị trí của bạn"
+                Text="Nhập vị trí của bạn"
                 TextColor="#063267"
                 FontSize="18"
+                CornerRadius="30"
                 Margin="0,20,0,0" 
                 FontAttributes="Bold"
                 BackgroundColor="#ffbb00"
-                Clicked="btnNewLocation"/>
+                Clicked="btnNewLocation">
+
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1.1,0">
+                        <GradientStop Color="#ffbb00" Offset="0.1" />
+                        <GradientStop Color="Green" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

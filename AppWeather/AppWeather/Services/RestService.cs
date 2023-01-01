@@ -1,9 +1,14 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Xamarin.Forms;
+
 using System.Diagnostics;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Xamarin.Forms;
+using Newtonsoft.Json;
 
 namespace AppWeather.Services
 {

@@ -42,25 +42,13 @@
       "frameworks": {
         "monoandroid11.0": {
           "dependencies": {
-            "Xamarin.CommunityToolkit": {
-              "target": "Package",
-              "version": "[2.0.5, )"
-            },
-            "Xamarin.CommunityToolkit.Markup": {
-              "target": "Package",
-              "version": "[2.0.5, )"
-            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.4, )"
+              "version": "[1.6.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2545, )"
-            },
-            "sqlite-net-pcl": {
-              "target": "Package",
-              "version": "[1.8.116, )"
+              "version": "[5.0.0.2012, )"
             }
           }
         }
@@ -106,6 +94,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+9n3wU4ZAnnsxq/2hlaxF7P1iiWDzOA/NHwurJ4S9AfJ7kD8hPG0P9XFP8bEB8gyT/eCjJoP4lbuvX7JcpaxTw==",
+  "dgSpecHash": "wFR91BHZfa12l/R1CVJoF05VZal3Q1VWgiGeET57VfLOxJAvPMWaqsYpNn+p6UMIVstX6SAMVsicU4hvhLcL7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\sieut\\Documents\\GitHoc\\git clone\\IE307.N13\\App_Weather\\AppWeather\\AppWeather\\AppWeather.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sieut\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
     "C:\\Users\\sieut\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\sieut\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\sieut\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",

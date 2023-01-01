@@ -1,6 +1,9 @@
-﻿using AppWeather.Helper;
-using AppWeather.Services;
+﻿using AppWeather.Services;
+using AppWeather.Helper;
+using AppWeather.Views;
+using System;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace AppWeather
 {
@@ -12,8 +15,8 @@ namespace AppWeather
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
 
+            MainPage = new AppShell();
         }
 
         protected override void OnStart()

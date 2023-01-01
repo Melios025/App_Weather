@@ -1,4 +1,7 @@
-﻿using System.Windows.Input;
+﻿using System;
+using System.Windows.Input;
+using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace AppWeather.ViewModels
 {
@@ -6,9 +9,10 @@ namespace AppWeather.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "Vị trí";
+            //Title = "About";
+            //OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
         }
 
-        public ICommand OpenWebCommand { get; }
+        //public ICommand OpenWebCommand { get; }
     }
 }

@@ -2,12 +2,36 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppWeather.Views.SavedLocationPage">
+    
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="THÊM" x:Name="TIAddLocation" Clicked="TIAddLocation_Clicked"></ToolbarItem>
     </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <StackLayout>
-            <CollectionView x:Name="CVLocation" SelectionMode="Single" SelectionChanged="CVLocation_SelectionChanged">
+            <SearchBar 
+                x:Name="SearchBarHotel"
+                TextColor="#063267"
+                Placeholder="Tìm kiếm ở đây..."
+                PlaceholderColor="#063267"
+                TextChanged="SearchBar_TextLocation">
+            </SearchBar>
+
+            <CollectionView 
+                x:Name="CVLocation" 
+                SelectionMode="Single" 
+                SelectionChanged="CVLocation_SelectionChanged">
+                
+                <!--Tạo layout cho collectionView-->
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout
+                        Orientation="Vertical"
+                        HorizontalItemSpacing="5"
+                        VerticalItemSpacing="5"
+                        Span="1">
+                    </GridItemsLayout>
+                </CollectionView.ItemsLayout>
+                <!---->
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <SwipeView>
@@ -23,17 +47,23 @@
                                                Invoked="SWEdit_Invoked"></SwipeItem>
                                 </SwipeItems>
                             </SwipeView.RightItems>
-                            <Grid HeightRequest="60" Padding="10">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition></RowDefinition>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="auto"></ColumnDefinition>
-                                </Grid.ColumnDefinitions>
-                                <Label Text="{Binding LocationName}"
-                                   FontAttributes="Bold" FontSize="Large" VerticalOptions="Center"
-                                   Grid.Column="0" Grid.Row="0" HorizontalOptions="Center"></Label>
-                            </Grid>
+                            
+                            <Frame 
+                                HeightRequest="50"
+                                BorderColor="LightGray"
+                                Padding="10"
+                                Margin="2"
+                                CornerRadius="10">
+                                <StackLayout>
+                                    <Label 
+                                    Text="{Binding LocationName}"
+                                    FontAttributes="Bold" 
+                                    FontSize="Large" 
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center"></Label>
+                                </StackLayout>
+                            </Frame>
+                            
                         </SwipeView>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

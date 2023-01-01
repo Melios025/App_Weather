@@ -1,6 +1,11 @@
 ﻿using System;
-using System.Globalization;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
 using Xamarin.Forms;
+
+using System.Globalization;
 
 namespace AppWeather.Services
 {
@@ -11,7 +16,7 @@ namespace AppWeather.Services
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             long dateTime = (long)value;
-            return $"{_time.AddSeconds(dateTime).ToString()} UTC";
+            return $"{_time.AddSeconds(dateTime).ToString()} ";
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

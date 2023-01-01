@@ -1,6 +1,11 @@
-﻿
-using Newtonsoft.Json;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
 using Xamarin.Forms;
+
+using Newtonsoft.Json;
 
 namespace AppWeather.Services
 {
@@ -31,7 +36,7 @@ namespace AppWeather.Services
         public Clouds Clouds { get; set; }
 
         [JsonProperty("dt_txt")]
-        public long Dt { get; set; }
+        public DateTime Dt { get; set; }
 
         [JsonProperty("sys")]
         public Sys Sys { get; set; }
@@ -61,11 +66,10 @@ namespace AppWeather.Services
 
     public class Main
     {
-        [JsonProperty("temp")]
-        public double Temperature { get; set; }
-
         [JsonProperty("feels_like")]
         public double Feels { get; set; }
+        [JsonProperty("temp")]
+        public double Temperature { get; set; }
 
         [JsonProperty("pressure")]
         public long Pressure { get; set; }
@@ -114,6 +118,7 @@ namespace AppWeather.Services
 
         [JsonProperty("icon")]
         public string Icon { get; set; }
+        public string IconFull => $"{"icon_"}{Icon}{".png"}";
     }
 
     public class Wind
@@ -124,4 +129,5 @@ namespace AppWeather.Services
         [JsonProperty("deg")]
         public long Deg { get; set; }
     }
+    
 }

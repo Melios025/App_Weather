@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppWeather.Views.LoginUserPage"
+             BackgroundColor="#063267"
+             Shell.NavBarIsVisible="False">
+    <StackLayout VerticalOptions="CenterAndExpand" Margin="20,0">
+        <Image Source="splash_logo.png"></Image>
+        <Entry
+            x:Name="UserLoginEmail"
+            Placeholder="User Email"
+            TextColor="#063267"
+            BackgroundColor="LightGray"></Entry>
+        <Entry
+            x:Name="UserLoginPassword"
+            Placeholder="User Password"
+            TextColor="#063267"
+            BackgroundColor="LightGray"></Entry>
+        <Button
+            x:Name="loginbutton"
+            Text="Login"
+            TextColor="#063267"
+            CornerRadius="30"
+            Margin="0,50,0,20"
+            Clicked="loginbuttonclicked">
+
+            <Button.Background>
+                <LinearGradientBrush EndPoint="1.1,0">
+                    <GradientStop Color="#ffbb00" Offset="0.1" />
+                    <GradientStop Color="Green" Offset="1.0" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button
+            x:Name="signupbutton"
+            Text="Sign up"
+            Margin="140,0"
+            CornerRadius="30"
+            Clicked="signuppageclicled"></Button>
+    </StackLayout>
+</ContentPage>

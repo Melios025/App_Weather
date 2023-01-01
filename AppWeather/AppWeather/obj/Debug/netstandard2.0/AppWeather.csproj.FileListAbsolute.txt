@@ -19,40 +19,49 @@ E:\Tailieunam4_1\Ungdungdanentang\project\AppWeather\AppWeather\AppWeather\obj\D
 E:\Tailieunam4_1\Ungdungdanentang\project\AppWeather\AppWeather\AppWeather\obj\Debug\netstandard2.0\ref\AppWeather.dll
 E:\Tailieunam4_1\Ungdungdanentang\project\AppWeather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.pdb
 E:\Tailieunam4_1\Ungdungdanentang\project\AppWeather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\EntNewLocation.xaml.g.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\AppWeather.deps.json
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\AppWeather.dll
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\ref\AppWeather.dll
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\AppWeather.pdb
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.csproj.AssemblyReference.cache
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\EntNewLocation.xaml.g.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.AssemblyInfoInputs.cache
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.AssemblyInfo.cs
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.csproj.CoreCompileInputs.cache
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.dll
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\ref\AppWeather.dll
-C:\Users\sieut\Documents\Học\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.pdb
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\AppWeather.deps.json
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\AppWeather.dll
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\ref\AppWeather.dll
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\AppWeather.pdb
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.csproj.AssemblyReference.cache
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\EntNewLocation.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.AssemblyInfoInputs.cache
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.AssemblyInfo.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.csproj.CoreCompileInputs.cache
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.dll
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\ref\AppWeather.dll
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.pdb
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\LoginUserPage.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\SignupUserPage.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\AddLocationPage.xaml.g.cs
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\SavedLocationPage.xaml.g.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\AppWeather.deps.json
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\AppWeather.dll
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\ref\AppWeather.dll
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\bin\Debug\netstandard2.0\AppWeather.pdb
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.csproj.AssemblyReference.cache
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\AddLocationPage.xaml.g.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\EntNewLocation.xaml.g.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\LoginUserPage.xaml.g.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\SavedLocationPage.xaml.g.cs
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\SignupUserPage.xaml.g.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.AssemblyInfoInputs.cache
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.AssemblyInfo.cs
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.csproj.CoreCompileInputs.cache
@@ -60,6 +69,3 @@ C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWe
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.dll
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\ref\AppWeather.dll
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.pdb
-C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\AppWeather.csproj.AssemblyReference.cache
-C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\SavedLocationPage.xaml.g.cs
-C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather\obj\Debug\netstandard2.0\Views\AddLocationPage.xaml.g.cs

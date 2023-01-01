@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "FirebaseAuthentication.net/3.7.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
@@ -141,7 +154,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.7.4": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -158,7 +171,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2545": {
+      "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -285,6 +298,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "3.7.2",
           "Newtonsoft.Json.Bson": "1.0.2",
           "Xamarin.CommunityToolkit": "2.0.5",
           "Xamarin.CommunityToolkit.Markup": "2.0.5",
@@ -301,6 +315,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "FirebaseAuthentication.net/3.7.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
@@ -440,7 +467,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.7.4": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -457,7 +484,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2545": {
+      "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -584,6 +611,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "3.7.2",
           "Newtonsoft.Json.Bson": "1.0.2",
           "Xamarin.CommunityToolkit": "2.0.5",
           "Xamarin.CommunityToolkit.Markup": "2.0.5",
@@ -600,6 +628,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "FirebaseAuthentication.net/3.7.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
@@ -739,7 +780,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.7.4": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -756,7 +797,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2545": {
+      "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -883,6 +924,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "3.7.2",
           "Newtonsoft.Json.Bson": "1.0.2",
           "Xamarin.CommunityToolkit": "2.0.5",
           "Xamarin.CommunityToolkit.Markup": "2.0.5",
@@ -899,6 +941,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "FirebaseAuthentication.net/3.7.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
@@ -1038,7 +1093,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.7.4": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -1055,7 +1110,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2545": {
+      "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1182,6 +1237,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "3.7.2",
           "Newtonsoft.Json.Bson": "1.0.2",
           "Xamarin.CommunityToolkit": "2.0.5",
           "Xamarin.CommunityToolkit.Markup": "2.0.5",
@@ -1199,6 +1255,18 @@
     }
   },
   "libraries": {
+    "FirebaseAuthentication.net/3.7.2": {
+      "sha512": "d0Zc0tiE7NutI/jMX/T81LU/rX3HVBH8vtvKTbIeN6BCIQ+wipstz7tm5MnIgAeh4ehqCHTiVuMOHztqfCVCBQ==",
+      "type": "package",
+      "path": "firebaseauthentication.net/3.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebaseauthentication.net.3.7.2.nupkg.sha512",
+        "firebaseauthentication.net.nuspec",
+        "lib/netstandard1.1/Firebase.Auth.dll"
+      ]
+    },
     "Newtonsoft.Json/12.0.1": {
       "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "type": "package",
@@ -1492,10 +1560,10 @@
         "xamarin.communitytoolkit.markup.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.7.4": {
-      "sha512": "oYCnkjzooqWdI1VnOOt1gyUF+s1Nbi6OYy7HlltzHrfNyh8MMKgMTO30UGe3kcj9YmD7IeT5clh3xCDmfTfZSw==",
+    "Xamarin.Essentials/1.6.1": {
+      "sha512": "gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
       "type": "package",
-      "path": "xamarin.essentials/1.7.4",
+      "path": "xamarin.essentials/1.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1504,6 +1572,15 @@
         "lib/monoandroid10.0/Xamarin.Essentials.dll",
         "lib/monoandroid10.0/Xamarin.Essentials.pdb",
         "lib/monoandroid10.0/Xamarin.Essentials.xml",
+        "lib/monoandroid80/Xamarin.Essentials.dll",
+        "lib/monoandroid80/Xamarin.Essentials.pdb",
+        "lib/monoandroid80/Xamarin.Essentials.xml",
+        "lib/monoandroid81/Xamarin.Essentials.dll",
+        "lib/monoandroid81/Xamarin.Essentials.pdb",
+        "lib/monoandroid81/Xamarin.Essentials.xml",
+        "lib/monoandroid90/Xamarin.Essentials.dll",
+        "lib/monoandroid90/Xamarin.Essentials.pdb",
+        "lib/monoandroid90/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -1530,14 +1607,14 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.7.4.nupkg.sha512",
+        "xamarin.essentials.1.6.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2545": {
-      "sha512": "mjfNx4Y/RD0FYjrBfETT2iNdFD1WCXN5wNHPhQaXm3k0u5XYJaOx5K83EZ8nVun+FPi7Wo3rQPIN0DLCs5PG4A==",
+    "Xamarin.Forms/5.0.0.2012": {
+      "sha512": "Rqc6xvWR/sf+Db5+qRCFmuYTWVp04QWRfwPto2/JHbShSy4Ed53Q2jpoFzsoloXkJA6saD236PlaWAhT6vI4gw==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2545",
+      "path": "xamarin.forms/5.0.0.2012",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1746,7 +1823,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2545.nupkg.sha512",
+        "xamarin.forms.5.0.0.2012.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1759,11 +1836,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "AppWeather >= 1.0.0",
-      "Xamarin.CommunityToolkit >= 2.0.5",
-      "Xamarin.CommunityToolkit.Markup >= 2.0.5",
-      "Xamarin.Essentials >= 1.7.4",
-      "Xamarin.Forms >= 5.0.0.2545",
-      "sqlite-net-pcl >= 1.8.116"
+      "Xamarin.Essentials >= 1.6.1",
+      "Xamarin.Forms >= 5.0.0.2012"
     ]
   },
   "packageFolders": {
@@ -1808,25 +1882,13 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
-          "Xamarin.CommunityToolkit": {
-            "target": "Package",
-            "version": "[2.0.5, )"
-          },
-          "Xamarin.CommunityToolkit.Markup": {
-            "target": "Package",
-            "version": "[2.0.5, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.7.4, )"
+            "version": "[1.6.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2545, )"
-          },
-          "sqlite-net-pcl": {
-            "target": "Package",
-            "version": "[1.8.116, )"
+            "version": "[5.0.0.2012, )"
           }
         }
       }
@@ -1842,5 +1904,33 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.4 to 1.6.1. Reference the package directly from the project to select a different version. \r\n AppWeather.iOS -> AppWeather -> Xamarin.Essentials (>= 1.7.4) \r\n AppWeather.iOS -> Xamarin.Essentials (>= 1.6.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2545 to 5.0.0.2012. Reference the package directly from the project to select a different version. \r\n AppWeather.iOS -> AppWeather -> Xamarin.Forms (>= 5.0.0.2545) \r\n AppWeather.iOS -> Xamarin.Forms (>= 5.0.0.2012)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

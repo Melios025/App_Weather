@@ -19,7 +19,7 @@
                 <Entry Keyboard="Text" x:Name="EntLocationName"
                        VerticalOptions="Center" Grid.Row="0" Grid.Column="1"></Entry>
 
-               <Button Text="LƯU" x:Name="BtnAddNewLocatoin" Clicked="BtnAddNewLocatoin_Clicked"
+                <Button Text="LƯU" x:Name="BtnAddNewLocatoin" Clicked="BtnAddNewLocatoin_Clicked"
                         Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
                         VerticalOptions="Center" HorizontalOptions="Center"
                         FontSize="20" FontAttributes="Bold"></Button>

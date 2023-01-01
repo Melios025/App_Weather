@@ -19,7 +19,7 @@ namespace AppWeather.Views
             InitializeComponent();
             Title = "Thêm vị trí mới";
         }
-        public  AddLocationPage(Location location)
+        public AddLocationPage(Location location)
         {
             InitializeComponent();
             Title = "Sửa ví trí";
