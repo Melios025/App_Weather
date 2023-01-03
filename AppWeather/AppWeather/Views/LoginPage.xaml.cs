@@ -26,59 +26,8 @@ namespace AppWeather.Views
         {
             Navigation.PushAsync(new LoginUserPage());
         }
-        public async void GetLocation()
-        {
-            try
-            {
-                var location = await Geolocation.GetLastKnownLocationAsync();
-                if (location == null)
-                {
-                    location = await Geolocation.GetLocationAsync(new GeolocationRequest
-                    {
-                        DesiredAccuracy = GeolocationAccuracy.Best,Timeout = TimeSpan.FromSeconds(30)
-                    }) ;
-                }
-                if (location == null)
-                {
-                    DisplayAlert("Lỗi", "Không có GPS", "Ok");
-                }
-                else
-                {
-                    var lat = location.Latitude;
-                    var lon = location.Longitude;
-                    var placemarks = await Geocoding.GetPlacemarksAsync(lat, lon);
-                    var placemark = placemarks?.FirstOrDefault();
-                    if (placemark != null)
-                    {
-                        Models.Location SendLocation = new Models.Location { };
-                        SendLocation.LocationName= placemark.AdminArea.ToString();                    
-                        Navigation.PushAsync(new AboutPage(SendLocation));
-                    }
-                }
+        
 
-            }
-            catch (FeatureNotSupportedException fnsEx)
-            {
-                // Handle not supported on device exception
-            }
-            catch (FeatureNotEnabledException fneEx)
-            {
-                // Handle not enabled on device exception
-            }
-            catch (PermissionException pEx)
-            {
-                // Handle permission exception
-            }
-            catch (Exception ex)
-            {
-                // Unable to get location
-            }
-            
-        }
 
-        private void CurrentLocation_Clicked(object sender, EventArgs e)
-        {
-            GetLocation();
-        }
     }
 }

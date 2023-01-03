@@ -16,7 +16,7 @@ namespace AppWeather.Services
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             long dateTime = (long)value;
-            return $"{_time.AddSeconds(dateTime).ToString()} ";
+            return $"{_time.AddSeconds(dateTime).ToString()}";
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

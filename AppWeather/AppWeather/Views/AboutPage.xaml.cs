@@ -2,20 +2,26 @@
 using System;
 using Xamarin.Forms;
 using AppWeather.Services;
+using Xamarin.Essentials;
+using System.Linq;
+using AppWeather.Models;
 
 namespace AppWeather.Views
 {
     public partial class AboutPage : ContentPage
     {
-        Location _Location;
+        Models.Location _Location;
         Services.RestService _restService;
         public AboutPage()
         {
             InitializeComponent();
             _restService = new Services.RestService();
             date.Text = DateTime.Now.ToString();
+            Models.Location Current = new Models.Location {LocationName="Thu duc" };
+            _Location = Current;
+            GetWeather(_Location.LocationName);
         }
-        public AboutPage(Location location)
+        public AboutPage(Models.Location location)
         {
             InitializeComponent();
             _restService = new Services.RestService();
@@ -45,9 +51,10 @@ namespace AppWeather.Views
             requestUri += $"?q={_Location.LocationName}";
             requestUri += "&units=metric"; // or units=metric
             requestUri += $"&APPID={Services.Constants.OpenWeatherMapAPIKey}";
-            requestUri += "&lang=vi";
             return requestUri;
         }
+
+
 
 
     }

@@ -30,7 +30,7 @@
             <Button 
                 Text="Sử dụng vị trí hiện tại"
                 x:Name="CurrentLocation"
-                Clicked="CurrentLocation_Clicked"
+                Command="{Binding LoginCommand}"
                 TextColor="#063267"
                 FontSize="18"
                 CornerRadius="30"
