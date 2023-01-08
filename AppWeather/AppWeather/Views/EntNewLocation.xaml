@@ -4,7 +4,8 @@
              xmlns:local="clr-namespace:AppWeather.Services"
              x:Class="AppWeather.Views.EntNewLocation"
              xmlns:vm="clr-namespace:AppWeather.ViewModels"
-             Shell.NavBarIsVisible="False">
+             Shell.BackgroundColor="#063267"
+             Shell.NavBarHasShadow="False">
 
     <ContentPage.BindingContext>
         <vm:EntHomeModel />
@@ -33,7 +34,7 @@
     </ContentPage.Resources>
 
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="0,-20,0,0">
             <Grid BackgroundColor="#063267" 
               Padding="10,20,10,10">
                 <Grid.RowDefinitions>
@@ -98,37 +99,37 @@
                 <StackLayout Padding="10">
                     <Label Text="Vị trí" 
                        Style="{StaticResource labelStyle}" />
-                    <Label x:Name="txtLocal" Text="{Binding Title}" 
+                    <Label x:Name="txtLocal" Text="{Binding City.Title}" 
                        Style="{StaticResource labelResultStyle}" />
 
                     <Label Text="Nhiệt độ ( ℃ )" 
                        Style="{StaticResource labelStyle}" />
-                    <Label Text="{Binding Main.Temperature}" 
+                    <Label Text="{Binding List[0].Main.Temp}" 
                        Style="{StaticResource labelResultStyle}" />
 
                     <Label Text="Tốc độ gió" 
                        Style="{StaticResource labelStyle}" />
-                    <Label Text="{Binding Wind.Speed}" 
+                    <Label Text="{Binding List[0].Wind.Speed}" 
                        Style="{StaticResource labelResultStyle}" />
 
                     <Label Text="Độ ẩm" 
                        Style="{StaticResource labelStyle}" />
-                    <Label Text="{Binding Main.Humidity}" 
+                    <Label Text="{Binding List[0].Main.Humidity}" 
                        Style="{StaticResource labelResultStyle}" />
 
                     <Label Text="Thời tiết" 
                        Style="{StaticResource labelStyle}" />
-                    <Label Text="{Binding Weather[0].Visibility}" 
+                    <Label Text="{Binding List[0].Weather[0].Description}" 
                        Style="{StaticResource labelResultStyle}" />
 
                     <Label Text="Thời gian mặt trời mọc" 
                        Style="{StaticResource labelStyle}" />
-                    <Label Text="{Binding Sys.Sunrise, Converter={StaticResource longToDateTimeConverter}}" 
+                    <Label Text="{Binding City.Sunrise, Converter={StaticResource longToDateTimeConverter}}" 
                        Style="{StaticResource labelResultStyle}" />
 
                     <Label Text="Thời gian mặt trời lặn" 
                        Style="{StaticResource labelStyle}" />
-                    <Label Text="{Binding Sys.Sunset, Converter={StaticResource longToDateTimeConverter}}" 
+                    <Label Text="{Binding City.Sunset, Converter={StaticResource longToDateTimeConverter}}" 
                        Style="{StaticResource labelResultStyle}" />
                 </StackLayout>
             </ScrollView>

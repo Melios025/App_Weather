@@ -1,6 +1,6 @@
 ﻿using AppWeather.Models;
 using System;
-using System.Collections.ObjectModel;
+using System.Linq;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -9,33 +9,20 @@ namespace AppWeather.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SavedLocationPage : ContentPage
-    {  
-        Location _Location;
-        public ObservableCollection<Location> LocalNames;
+    {
         public SavedLocationPage()
         {
             InitializeComponent();
-            //===============Tạo dữ liệu ban đầu để làm thanh searchbar============
-            //LocalNames = new ObservableCollection<Location>
-            //{
-            //    new Location{LocationName="Ho Chi Minh", LocationId=1},
-            //    new Location{LocationName="Ha Noi", LocationId=2},
-            //    new Location{LocationName="Vung Tau", LocationId=3},
-            //    new Location{LocationName="Thu Duc", LocationId=4},
-            //    new Location{LocationName="Binh Duong", LocationId=5},
-            //    new Location{LocationName="Loc Ninh", LocationId=6},
-            //};
-            //CVLocation.ItemsSource = LocalNames;
         }
         protected override void OnAppearing()
         {
             base.OnAppearing();
             CVLocation.ItemsSource = App.LocationDb.ReadLocation();
         }
+
         private void TIAddLocation_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AddLocationPage());
-
         }
 
 
@@ -65,10 +52,9 @@ namespace AppWeather.Views
             var location = swipeItem.CommandParameter as Location;
             Navigation.PushAsync(new AddLocationPage(location));
         }
-        private void SearchBar_TextLocation(object sender, EventArgs e)
+        private void SearchBar_TextLocation(object sender, TextChangedEventArgs e)
         {
-
+            CVLocation.ItemsSource = App.LocationDb.ReadLocation().Where(a => a.LocationName.ToLower().StartsWith(e.NewTextValue));
         }
-       
     }
 }

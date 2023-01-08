@@ -29,15 +29,14 @@
                 FontAttributes="Bold"></Label>
             <Button 
                 Text="Sử dụng vị trí hiện tại"
-                x:Name="CurrentLocation"
-                Command="{Binding LoginCommand}"
                 TextColor="#063267"
                 FontSize="18"
                 CornerRadius="30"
                 Margin="0,20,0,0" 
                 FontAttributes="Bold"
-                BackgroundColor="#ffbb00" >
-
+                BackgroundColor="#ffbb00"
+                Command="{Binding LoginCommand}">
+                
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1.1,0">
                         <GradientStop Color="#ffbb00" Offset="0.1" />

@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppWeather.Views.SavedLocationPage">
+             x:Class="AppWeather.Views.SavedLocationPage"
+             Shell.BackgroundColor="#fff"
+             Shell.NavBarHasShadow="False"
+             Shell.ForegroundColor="#063267">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="THÊM" x:Name="TIAddLocation" Clicked="TIAddLocation_Clicked"></ToolbarItem>
@@ -12,15 +15,20 @@
             <SearchBar 
                 x:Name="SearchBarHotel"
                 TextColor="#063267"
+                FontSize="20"
                 Placeholder="Tìm kiếm ở đây..."
                 PlaceholderColor="#063267"
+                CancelButtonColor="#063267"
                 TextChanged="SearchBar_TextLocation">
             </SearchBar>
 
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="20,0"></BoxView>
+            
             <CollectionView 
                 x:Name="CVLocation" 
                 SelectionMode="Single" 
-                SelectionChanged="CVLocation_SelectionChanged">
+                SelectionChanged="CVLocation_SelectionChanged"
+                EmptyView="Không có vị trí trong danh sách được lưu">
                 
                 <!--Tạo layout cho collectionView-->
                 <CollectionView.ItemsLayout>
@@ -32,6 +40,7 @@
                     </GridItemsLayout>
                 </CollectionView.ItemsLayout>
                 <!---->
+                
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <SwipeView>
@@ -47,22 +56,25 @@
                                                Invoked="SWEdit_Invoked"></SwipeItem>
                                 </SwipeItems>
                             </SwipeView.RightItems>
-                            
+                            <!-- Frame vị trí -->
                             <Frame 
                                 HeightRequest="50"
                                 BorderColor="LightGray"
                                 Padding="10"
                                 Margin="2"
-                                CornerRadius="10">
+                                CornerRadius="10"
+                                BackgroundColor="#ffbb00">
                                 <StackLayout>
                                     <Label 
                                     Text="{Binding LocationName}"
+                                    TextColor="#063267"
                                     FontAttributes="Bold" 
                                     FontSize="Large" 
                                     VerticalOptions="Center"
                                     HorizontalOptions="Center"></Label>
                                 </StackLayout>
                             </Frame>
+                            <!---->
                             
                         </SwipeView>
                     </DataTemplate>

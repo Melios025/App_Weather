@@ -15,7 +15,32 @@
             x:Name="UserLoginPassword"
             Placeholder="User Password"
             TextColor="#063267"
-            BackgroundColor="LightGray"></Entry>
+            BackgroundColor="LightGray"
+            IsPassword="True"></Entry>
+
+        <StackLayout>
+            <CheckBox 
+                x:Name="CheckBoxPass"
+                Margin="0,5,0,0"
+                CheckedChanged="IsCheckedPassword"></CheckBox>
+            <Label 
+                x:Name="TextShowHidePassword"
+                Text="Hiện mật khẩu"
+                TextColor="White"
+                Margin="40,-32,0,0"></Label>
+        </StackLayout>
+        
+
+        <!--<Grid
+            RowDefinitions="Auto, Auto, Auto"
+            ColumnDefinitions="*,*">
+            <CheckBox 
+                x:Name="CheckBoxPass"
+                Margin="0,5,0,0"
+                BackgroundColor="LightGray"
+                CheckedChanged="IsCheckedPassword"></CheckBox>
+        </Grid>-->
+        
         <Button
             x:Name="loginbutton"
             Text="Login"

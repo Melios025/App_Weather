@@ -1,9 +1,5 @@
 ﻿using Firebase.Auth;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -18,6 +14,21 @@ namespace AppWeather.Views
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+        }
+        //Ẩn hiện mật khẩu
+        async void IsCheckedPassword(object sender, CheckedChangedEventArgs e)
+        {
+            bool isCheck = CheckBoxPass.IsChecked;
+            if (!isCheck)
+            {
+                UserNewPassword.IsPassword = true;
+                TextShowHidePassword.Text = "Hiện mật khẩu";
+            }
+            else
+            {
+                UserNewPassword.IsPassword = false;
+                TextShowHidePassword.Text = "Ẩn mật khẩu";
+            }
         }
         async void signupbuttonclicked(Object sender, EventArgs e)
         {

@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:AppWeather.Services"
              xmlns:vm="clr-namespace:AppWeather.ViewModels"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             Title="{Binding Title}"
+             Title="{Binding City.Title}"
              Shell.TitleColor="#063267"
              Shell.BackgroundColor="#f0f0f0"
              Shell.NavBarHasShadow="False"
@@ -27,127 +27,136 @@
                     <Label
                         x:Name="TextInfoLocal"
                         Grid.Row="0"
-                        Text="{Binding Title}" 
+                        Text="{Binding City.Title}" 
                         FontSize="Title"
                         FontAttributes="Bold"
                         Margin="16, 0, 0, 0"></Label>
                     <Label
                         Grid.Row="1"
                         x:Name="CountryLable"
-                        Text="{Binding Sys.Country}"
+                        Text="{Binding City.Country}"
                         FontSize="Body"
                         Margin="16, -8, 0, 0"></Label>
                     <Label
-                        x:Name="date"
+                        x:Name="labelDate"
                         Grid.Row="2"
                         Text=""
                         FontSize="Body"
                         Margin="16, 2, 0, 0"></Label>
+                    
                     <Grid Grid.Row="3"
                         ColumnDefinitions="*,*"
                         VerticalOptions="CenterAndExpand"
                         Margin="0, 16, 24, 16">
                         <Image 
-                                Grid.Column="0"
-                               Source="{Binding Weather[0].IconFull}"
-                                WidthRequest="120"
-                                HeightRequest="120"
-                                x:Name="IconImg"></Image>
+                            x:Name="IconImg"
+                            Grid.Column="0"
+                            Source="{Binding List[0].Weather[0].IconFull}"
+                            WidthRequest="120"
+                            HeightRequest="120"></Image>
                         <StackLayout Grid.Column="1"
-                                Spacing="0"
-                                HorizontalOptions="EndAndExpand"
-                                VerticalOptions="CenterAndExpand">
+                            Spacing="0"
+                            HorizontalOptions="EndAndExpand"
+                            VerticalOptions="CenterAndExpand">
                             <Label
-                                    HorizontalOptions="End">
+                                HorizontalOptions="End">
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span
-                                                Text="{Binding Main.Temperature}"
-                                                FontSize="60"
-                                                FontAttributes="Bold"
-                                                CharacterSpacing="1"></Span>
+                                            Text="{Binding List[0].Main.Temp}"
+                                            FontSize="60"
+                                            FontAttributes="Bold"
+                                            CharacterSpacing="1"></Span>
+                                        <Span 
+                                            x:Name="UnitsMetricSpan"
+                                            Text="" 
+                                            FontSize="19"
+                                            FontAttributes="Bold"></Span>
                                     </FormattedString>
                                 </Label.FormattedText>
                             </Label>
                             <Label
-                                    Margin="0, -5, 0, 0"
-                                    HorizontalOptions="End">
+                                Margin="0, -5, 0, 0"
+                                HorizontalOptions="End">
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span
-                                                Text="Feels like "></Span>
+                                            Text="Feels like "></Span>
                                         <Span
-                                                Text="{Binding Main.Feels}"
-                                                FontAttributes="Bold"
-                                                ></Span>
+                                            Text="{Binding List[0].Main.Feels_like}"
+                                            FontAttributes="Bold"></Span>
                                     </FormattedString>
                                 </Label.FormattedText>
                             </Label>
                             <Label
-                                    Text="{Binding Weather[0].Description}"
-                                    FontAttributes="Bold"
-                                    HorizontalOptions="EndAndExpand"></Label>
+                                Text="{Binding List[0].Weather[0].Description}"
+                                FontAttributes="Bold"
+                                HorizontalOptions="EndAndExpand"></Label>
                         </StackLayout>
                     </Grid>
 
                     <Frame
-                            Grid.Row="4"
-                            HorizontalOptions="FillAndExpand"
-                            Margin="10, 0, 10, 0"
-                            CornerRadius="24"
-                            BackgroundColor="#F5F5F5">
+                        Grid.Row="4"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="10, 0, 10, 0"
+                        CornerRadius="24"
+                        BackgroundColor="#F5F5F5">
+                        
                         <Grid
-                                RowDefinitions="Auto, Auto, Auto"
-                                ColumnDefinitions="150, *"
+                            RowDefinitions="Auto, Auto, Auto"
+                            ColumnDefinitions="130,auto"
+                            HorizontalOptions="FillAndExpand">
+                            
+                            <StackLayout 
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Margin="0, 0, 0, 0"
+                                Orientation="Horizontal"
                                 HorizontalOptions="FillAndExpand">
-                            <StackLayout 
-                                            Grid.Row="0"
-                                            Grid.Column="0"
-                                            Margin="0, 0, 0, 0"
-                                            Orientation="Horizontal"
-                                            HorizontalOptions="FillAndExpand">
+                                
                                 <Label
-                                                   
-                                                    Text="Wind speed"
-                                                    HorizontalOptions="StartAndExpand">
+                                    Text="Wind speed:"
+                                    HorizontalOptions="StartAndExpand">
                                 </Label>
                                 <Label
-                                                    Text="{Binding Wind.Speed}"
-                                                    FontAttributes="Bold"
-                                                    HorizontalOptions="EndAndExpand"></Label>
+                                    Text="{Binding List[0].Wind.Speed}"
+                                    FontAttributes="Bold"
+                                    HorizontalOptions="EndAndExpand"></Label>
                             </StackLayout>
+                            
                             <StackLayout 
-                                            Grid.Row="1"
-                                            Grid.Column="0"
-                                            Margin="0, 0, 0, 0"
-                                            Orientation="Horizontal"
-                                            HorizontalOptions="FillAndExpand">
+                                Grid.Row="1"
+                                Grid.Column="0"
+                                Margin="0, 0, 0, 0"
+                                Orientation="Horizontal"
+                                HorizontalOptions="FillAndExpand">
+                                
                                 <Label
-                                                   
-                                                    Text="Humidity"
-                                                    HorizontalOptions="StartAndExpand">
+                                    Text="Humidity:"
+                                    HorizontalOptions="StartAndExpand">
                                 </Label>
                                 <Label
-                                                    Text="{Binding Main.Humidity}"
-                                                    FontAttributes="Bold"
-                                                    HorizontalOptions="EndAndExpand"></Label>
+                                    Text="{Binding List[0].Main.Humidity}"
+                                    FontAttributes="Bold"
+                                    HorizontalOptions="EndAndExpand"></Label>
                             </StackLayout>
+                            
                             <StackLayout 
-                                            Grid.Row="2"
-                                            Grid.Column="0"
-                                            Margin="0, 0, 0, 0"
-                                            Orientation="Horizontal"
-                                            HorizontalOptions="FillAndExpand">
+                                Grid.Row="2"
+                                Grid.Column="0"
+                                Margin="0, 0, 0, 0"
+                                Orientation="Horizontal"
+                                HorizontalOptions="FillAndExpand">
                                 <Label
-                                                    
-                                                    Text="Pressure"
-                                                    HorizontalOptions="StartAndExpand">
+                                    Text="Pressure:"
+                                    HorizontalOptions="StartAndExpand">
                                 </Label>
                                 <Label
-                                                    Text="{Binding Main.Pressure}"
-                                                    FontAttributes="Bold"
-                                                    HorizontalOptions="EndAndExpand"></Label>
+                                    Text="{Binding List[0].Main.Pressure}"
+                                    FontAttributes="Bold"
+                                    HorizontalOptions="EndAndExpand"></Label>
                             </StackLayout>
+                            
                             <StackLayout 
                                             Grid.Row="0"
                                             Grid.Column="1"
@@ -155,11 +164,11 @@
                                             Orientation="Horizontal"
                                             HorizontalOptions="FillAndExpand">
                                 <Label
-                                                    Text="Rise"
+                                                    Text="Sun Rise:"
                                                     HorizontalOptions="StartAndExpand">
                                 </Label>
                                 <Label
-                                                    Text="{Binding Sys.Sunrise, Converter={StaticResource longToDateTimeConverter}}"
+                                                    Text="{Binding City.Sunrise, Converter={StaticResource longToDateTimeConverter}}"
                                                     FontAttributes="Bold"
                                                     HorizontalOptions="EndAndExpand"></Label>
                             </StackLayout>
@@ -171,11 +180,11 @@
                                             HorizontalOptions="FillAndExpand">
                                 <Label
                                                 
-                                                    Text="Set"
+                                                    Text="Sun Set:"
                                                     HorizontalOptions="StartAndExpand">
                                 </Label>
                                 <Label
-                                                    Text="{Binding Sys.Sunset, Converter={StaticResource longToDateTimeConverter}}"
+                                                    Text="{Binding City.Sunset, Converter={StaticResource longToDateTimeConverter}}"
                                                     FontAttributes="Bold"
                                                     HorizontalOptions="EndAndExpand"></Label>
                             </StackLayout>
@@ -193,11 +202,7 @@
                                 Margin="0, 12, 0, 0"></Label>
                         <CollectionView
                                 x:Name="hourlyForecast"
-                                SelectionMode="Single"
                         HeightRequest="90">
-                            <!--SelectedItem="#"
-                                ItemsSource="" -->
-
                             <CollectionView.ItemsLayout>
                                 <LinearItemsLayout Orientation="Horizontal" ItemSpacing="4" SnapPointsType="Mandatory" SnapPointsAlignment="Start"/>
                             </CollectionView.ItemsLayout>
@@ -213,21 +218,21 @@
                                                     RowDefinitions="Auto, *, Auto">
                                                 <Label
                                                         Grid.Row="0"
-                                                        Text="18:00"
+                                                        Text="{ Binding TimeHourly}"
                                                         FontSize="16"
                                                         TextColor="#212121"
                                                         HorizontalOptions="Center">
                                                 </Label>
                                                 <Image 
                                                         Grid.Row="1"
-                                                        Source="icon_02d_n.png"
+                                                        Source="{Binding  IconHourly}"
                                                         WidthRequest="36"
                                                         HeightRequest="36"
                                                         VerticalOptions="Center">
                                                 </Image>
                                                 <Label
                                                         Grid.Row="2"
-                                                        Text="23c"
+                                                        Text="{Binding TempHourly}"
                                                         FontSize="16"
                                                         TextColor="#212121"
                                                         HorizontalOptions="Center">
@@ -244,80 +249,61 @@
                             Margin="16, 0, 16, 8">
                         <Label
                                 Text="Daily"
-                                 FontSize="23"
-                                TextColor="#212121"
                                 Margin="0, 8, 0, 0"></Label>
-                        <StackLayout 
-                            BindableLayout.ItemsSource="{Binding CurrentWeather.dailyWeatherForecast}">
-                            <BindableLayout.ItemTemplate>
-                                <DataTemplate>
-                                    <xct:Expander 
-                                            ExpandAnimationEasing="{x:Static Easing.CubicIn}"
-                                            CollapseAnimationEasing="{x:Static Easing.CubicOut}">
-                                        <xct:Expander.Header>
-                                            <Frame
-                                                    Padding="16, 8, 16, 12"
-                                                    CornerRadius="24"
-                                                    BackgroundColor="#F5F5F5">
-                                                <Grid 
-                                            ColumnDefinitions="Auto, *, Auto">
-                                                    <Image 
+                        <StackLayout>
+                            <CollectionView
+                                x:Name="DailyForecast"
+                               HeightRequest="390">
+                                <CollectionView.ItemsLayout>
+                                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
+                                </CollectionView.ItemsLayout>
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Frame
+                                                    Padding="16, 10, 16, 10"
+                                                    CornerRadius="24">
+                                                    
+                                            <Grid 
+                                                        ColumnDefinitions="Auto, *, *,*">
+                                                <Image 
                                                             Grid.Column="0"
-                                                            Source="icon_01n.png"
+                                                            Source="{Binding IconDaily}"
                                                             WidthRequest="36"
                                                             HeightRequest="36"
                                                             VerticalOptions="CenterAndExpand"></Image>
-                                                    <Label
+                                                <Label
                                                             Grid.Column="1"
-                                                            Text="Tomorrow"
-                                                            FontSize="14"
-                                                            TextColor="#212121"
+                                                            Text="{Binding TimeDaily}"
                                                             Margin="8, 0, 0, 0"
                                                             HorizontalOptions="Start"
                                                             VerticalOptions="CenterAndExpand">
-                                                    </Label>
-                                                    <Label
+                                                </Label>
+                                                <Label
                                                             Grid.Column="2"
-                                                             FontSize="14"
-                                                            TextColor="#212121"
-                                                            Margin="0, 0, 8, 0"
-                                                            HorizontalOptions="Center"
+                                                            FontAttributes="Bold"
+                                                            TextTransform="Uppercase"
+                                                            Text="{Binding DesDaily}"
+                                                            Margin="8, 0, 0, 0"
+                                                            HorizontalOptions="Start"
                                                             VerticalOptions="CenterAndExpand">
-                                                    </Label>
-                                                </Grid>
-                                            </Frame>
-                                        </xct:Expander.Header>
-                                        <Grid
-                                                RowDefinitions="Auto, Auto, Auto, Auto"
-                                                ColumnDefinitions="*, *"
-                                                Padding="16, 12, 16, 12"
-                                                BindableLayout.ItemsSource="{Binding detailsList}">
-                                            <BindableLayout.ItemTemplate>
-                                                <DataTemplate>
-                                                    <StackLayout 
-                                                            Grid.Row="0"
-                                                            Grid.Column="0"
-                                                            Margin="0, 0, 4, 0"
-                                                            Orientation="Horizontal"
-                                                            HorizontalOptions="FillAndExpand">
-                                                        <Label
-                                                                Text="aaaa"
-                                                                FontSize="14"
-                                                                TextColor="#757575"
-                                                                HorizontalOptions="StartAndExpand">
-                                                        </Label>
-                                                        <Label
-                                                                Text="123123123"
-                                                                 FontSize="14"
-                                                                TextColor="#757575"
-                                                                HorizontalOptions="EndAndExpand"></Label>
-                                                    </StackLayout>
-                                                </DataTemplate>
-                                            </BindableLayout.ItemTemplate>
-                                        </Grid>
-                                    </xct:Expander>
-                                </DataTemplate>
-                            </BindableLayout.ItemTemplate>
+                                                </Label>
+                                                <Label
+                                                            Grid.Column="3"
+                                                            Margin="0, 0, 8, 0"
+                                                            HorizontalOptions="EndAndExpand"
+                                                            VerticalOptions="CenterAndExpand">
+                                                    <Label.Text>
+                                                        <MultiBinding StringFormat="{}{0} / {1}">
+                                                            <Binding Path="Min"/>
+                                                            <Binding Path="Max"/>
+                                                        </MultiBinding>
+                                                    </Label.Text>
+                                                </Label>
+                                            </Grid>
+                                        </Frame>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
                         </StackLayout>
                     </StackLayout>
                 </StackLayout>

@@ -1,9 +1,6 @@
-﻿using AppWeather.Services;
-using AppWeather.Helper;
-using AppWeather.Views;
-using System;
+﻿using AppWeather.Helper;
+using AppWeather.Services;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace AppWeather
 {

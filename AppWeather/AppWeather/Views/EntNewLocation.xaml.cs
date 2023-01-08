@@ -1,8 +1,6 @@
-﻿using AppWeather.Models;
-using System;
+﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Xamarin.Essentials;
 
 namespace AppWeather.Views
 {
@@ -33,20 +31,25 @@ namespace AppWeather.Views
                 {
                     nameWeather.Text = "Thời tiết ổn định đó";
                 }
-                
+
             }
             else
             {
                 DisplayAlert("Thông báo", "\nBạn chưa nhập vị trí cần tìm. \n\nVí dụ: Ha Noi", "đóng");
             }
         }
-        //private async void StartCall(object sender, EventArgs e)
-        //{
-        //    await DisplayPromptAsync("Nhập vị trí thành phố", "What's your name?");
-        //}
+
+
         private async void btnUserLocation(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
+            if (string.IsNullOrWhiteSpace(_cityEntry.Text))
+            {
+                DisplayAlert("Thông báo", "\nBạn chưa nhập vị trí cần tìm. \n\nVí dụ: Ha Noi", "đóng");
+            }
+            else
+            {
+                await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
+            }
         }
 
 
@@ -57,6 +60,7 @@ namespace AppWeather.Views
             requestUri += $"?q={_cityEntry.Text}";
             requestUri += "&units=metric"; // units=metric
             requestUri += $"&APPID={Services.Constants.OpenWeatherMapAPIKey}";
+            requestUri += "&lang=vi";
             return requestUri;
         }
     }

@@ -1,14 +1,5 @@
-﻿using AppWeather.Models;
-using AppWeather.ViewModels;
-using AppWeather.Views;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AppWeather.ViewModels;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace AppWeather.Views
 {

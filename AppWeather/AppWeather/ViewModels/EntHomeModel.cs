@@ -1,8 +1,4 @@
-﻿using AppWeather.Views;
-using Xamarin.Forms;
-using System.Windows.Input;
-
-namespace AppWeather.ViewModels
+﻿namespace AppWeather.ViewModels
 {
     public class EntHomeModel : LoginViewModel
     {

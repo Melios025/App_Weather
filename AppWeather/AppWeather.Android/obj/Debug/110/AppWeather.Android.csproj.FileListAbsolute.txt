@@ -1307,6 +1307,9 @@ E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather
 E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\android\assets\System.Buffers.dll
 E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\android\assets\System.Memory.dll
 E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\res\drawable\home_icon1.png
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\res\drawable\info_icon.png
+E:\Tailieunam4_1\Ungdungdanentang\project\zFileGithub_sup\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\res\drawable\save_icon.png
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\bin\Debug\AppWeather.Android.dll
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\bin\Debug\AppWeather.Android.pdb
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\bin\Debug\com.companyname.appweather.apk
@@ -1407,6 +1410,9 @@ C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWe
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\res\mipmap-xxhdpi\icon.png
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\res\mipmap-xxxhdpi\icon.png
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\res\drawable\logout_icon.png
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\res\drawable\home_icon1.png
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\res\drawable\info_icon.png
+C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\res\drawable\save_icon.png
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\uploadflags.txt
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\resolvedassemblies.hash
 C:\Users\sieut\Documents\GitHoc\git clone\IE307.N13\App_Weather\AppWeather\AppWeather.Android\obj\Debug\110\android\assets\AppWeather.Android.dll

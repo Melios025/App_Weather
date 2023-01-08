@@ -1,10 +1,4 @@
-﻿using AppWeather.ViewModels;
-using AppWeather.Views;
-using System;
-using System.Collections.Generic;
-using Xamarin.Forms;
-
-namespace AppWeather
+﻿namespace AppWeather
 {
     public partial class AppShell : Xamarin.Forms.Shell
     {
